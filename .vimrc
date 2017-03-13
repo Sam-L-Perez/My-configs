@@ -11,6 +11,7 @@
 
 "Brams 8.0 commands for evim, (vim in permanent Insert mode)
 
+" NOTE AS OF NOW THIS ONLY WORKS WITH the computer USER!
 
 if v:progname =~? "evim"
   finish
@@ -93,9 +94,10 @@ set expandtab    " gets rid of the movement restrictions for the tab button by
 
 
 
-set number " gives line number on the backside of the screen VERY useful`
+set number  "gives line number on the backside of the screen VERY useful`
 
 
+set showcmd " show command at the bottom
 
 
 set wildmenu " menu interface for finding files using a wildcard expression 
@@ -104,6 +106,7 @@ set wildmenu " menu interface for finding files using a wildcard expression
 
 set lazyredraw " makes redrawing (unkown to me atm) only automatic for excepional circumstances
 
+set showmatch " Highlight matching variables
 
 set incsearch " search as letters are entered
 
@@ -167,7 +170,7 @@ else
 endif 
 
 " The matchit plugin makes the % command work better, but it is not backwards
-" compatible.
+"compatible.
 
 
 
