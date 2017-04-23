@@ -123,6 +123,9 @@ nnoremap k gk
 
 nnoremap qq :q!
 
+"changing 'force quit' to 'qq'
+
+
 " press <F5> for gundo
 
 
@@ -132,7 +135,6 @@ nnoremap <F5> :GundoToggle<CR>
 
 
 nnoremap <leader>ev :
-
 
 "Lightline config
 
@@ -149,10 +151,39 @@ Plug 'sjl/gundo.vim' "a vim redo fuction manager
 
 Plug 'itchyny/lightline.vim' "a very nice powerbar
 
+Plug 'geoffharcourt/vim-matchit' "enhanced '%' options
+
+
+Plug 'tpope/vim-eunuch' "adding some basic shell commands to vim
+"I.e ':Sudoedit' edits files as root 
+"    ':Remove' removes BOTH local buffer and physical file 
+"        as well as basic UNIX commands like 
+"                  ':Rename' ':Chmod' and 'Mkdir'
+"        
+"          the full list of commands can be found at
+"          http://vimawesome.com/plugin/eunuch-vim 
+
+"       WARNING 
+"          :Sudoedit/:Sudowrite doesn't seem to work
+"          
+"                    Investigate ASAP
+"
+
+
+        
+
+
+                 "Dependency plugins 
+         "basically plugins needed for other plugins that i don't really need by themselves (fucking tounge twister) 
+             
+                              
+
+
+
 
 call plug#end()
 
-"Tmux-specific settings
+"Tmux-specific settings that i shamelessly stole from dougblack.io
 
 if exists ('$TMUX')
 
@@ -172,10 +203,14 @@ endif
 " The matchit plugin makes the % command work better, but it is not backwards
 "compatible.
 
+"same as the matchit plugin
+
+                "due to ease i am now loading matchit through a third-party plugin manager
+
 
 
 if has('syntax') && has('eval')
-  packadd matchit
+"  packadd matchit
 endif
 
 
