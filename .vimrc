@@ -1,9 +1,15 @@
 "My (somewhat) retarded .vimrc
 
+
+
 "By Sam Perez.
+
+
 
 "Heavily inspired by the defualt .vimrc by Bram Moolenaar (his quotes will be
 "doubled for convenience) 
+
+
 
 
 "Even more Heavily inspired by dougblack.io's 'A good Vimrc' article
@@ -20,7 +26,7 @@ endif
 
 source $VIMRUNTIME/defaults.vim
 
-
+"Start of Bram's commenting
 
 if has("vms")  
   set nobackup		"" do not keep a backup file, use versions instead
@@ -70,6 +76,11 @@ endif "" has("autocmd")
 
 
 "" Add optional packages.
+
+"" End of Bram's commenting
+
+
+
 "vividchalk theme
 
 colorscheme vividchalk
@@ -177,6 +188,27 @@ Plug 'tpope/vim-eunuch' "adding some basic shell commands to vim
          "basically plugins needed for other plugins that i don't really need by themselves (fucking tounge twister) 
              
                               
+
+
+
+   " Lightline Configuration as copied from-
+   " https://github.com/itchyny/lightline.vim
+
+
+ let g:lightline = {
+   \  'colorscheme': 'wombat',
+   \ }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
