@@ -192,13 +192,15 @@ Plug 'tpope/vim-eunuch' "adding some basic shell commands to vim
 
 
    " Lightline Configuration as copied from-
-   " https://github.com/itchyny/lightline.vim
+   " https://github.com/itchyny/lightline.vim/blob/master/README.md
 
 
  let g:lightline = {
-   \  'colorscheme': 'wombat',
-   \ }
-
+    \  'colorscheme': 'wombat',
+    \  'component': {
+    \   'readonly':   '%{&readonly?"":""}',
+    \ }
+    \ }
 
 
 
@@ -237,7 +239,7 @@ endif
 
 "same as the matchit plugin
 
-                "due to ease i am now loading matchit through a third-party plugin manager
+"due to ease i am now loading matchit through a third-party plugin manager
 
 
 
@@ -252,5 +254,6 @@ endif
 
 
 "mksession/buffers
+""
 
 
