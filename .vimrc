@@ -31,7 +31,7 @@ source $VIMRUNTIME/defaults.vim
 if has("vms")  
   set nobackup		"" do not keep a backup file, use versions instead
 else
-  set backup		"" keep a backup file (restore to previous version)
+  set backup		""keep a backup file (restore to previous version)
   if has('persistent_undo')
     set undofile	"" keep an undo file (undo changes after closing)
   endif
@@ -134,6 +134,7 @@ nnoremap k gk
 
 nnoremap qq :q!
 
+map t4 :NERDTreeToggle<CR>
 "changing 'force quit' to 'qq'
 
 
@@ -165,7 +166,7 @@ Plug 'itchyny/lightline.vim' "a very nice powerbar
 Plug 'geoffharcourt/vim-matchit' "enhanced '%' options
 
 
-Plug 'tpope/vim-eunuch' "adding some basic shell commands to vim
+"Plug 'tpope/vim-eunuch' "adding some basic shell commands to vim
 "I.e ':Sudoedit' edits files as root 
 "    ':Remove' removes BOTH local buffer and physical file 
 "        as well as basic UNIX commands like 
@@ -173,7 +174,7 @@ Plug 'tpope/vim-eunuch' "adding some basic shell commands to vim
 "        
 "          the full list of commands can be found at
 "          http://vimawesome.com/plugin/eunuch-vim 
-
+"
 "       WARNING 
 "          :Sudoedit/:Sudowrite doesn't seem to work
 "          
@@ -181,7 +182,25 @@ Plug 'tpope/vim-eunuch' "adding some basic shell commands to vim
 "
 
 
+Plug 'scrooloose/nerdtree' " a vim filemanager
+
+
+Plug 'NLKNguyen/copy-cut-paste.vim'  "a paste plugin THAT ACUTALLY WORKS 
         
+       " There are two modes 
+       
+     
+        "one is Normal mode (Default)
+                  "QC=copy line of text
+                  "QX=cut line of text
+                  "QV= paste from clipboard 
+
+
+
+        "the other is Visual mode (v)
+                  "QC=copy selected text
+                  "QX=cut selected text
+                   
 
 
                  "Dependency plugins 
@@ -196,7 +215,7 @@ Plug 'tpope/vim-eunuch' "adding some basic shell commands to vim
 
 
  let g:lightline = {
-    \  'colorscheme': 'wombat',
+    \  'colorscheme': 'powerline',
     \  'component': {
     \   'readonly':   '%{&readonly?"":""}',
     \ }
@@ -205,7 +224,8 @@ Plug 'tpope/vim-eunuch' "adding some basic shell commands to vim
 
 
 
-
+"TO-DO 
+      "configure lightline
 
 
 
@@ -234,6 +254,20 @@ else
         let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 endif 
 
+"Gvim default modifications
+
+
+"from the http://vim.wikia.com/wiki/Change_font article
+
+if has('gui_running')
+
+        set guifont=Terminus\ 12
+      colorscheme vividchalk
+endif
+
+
+
+
 " The matchit plugin makes the % command work better, but it is not backwards
 "compatible.
 
@@ -254,6 +288,6 @@ endif
 
 
 "mksession/buffers
-""
+
 
 
