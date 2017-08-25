@@ -1,0 +1,44 @@
+" ~/.vimrc extra by Sam Perez
+" the purpose of this file being to keep unneeded plugins that  might be beneficial in the 
+" -  near future
+ 
+
+
+
+
+
+Plug 'tpope/vim-eunuch' "adding some basic shell commands to vim
+"I.e ':Sudoedit' edits files as root 
+"    ':Remove' removes BOTH local  buffer and physical file 
+"        as well as basic UNIX commands like 
+"                  ':Rename' ':Chmod' and 'Mkdir'
+"        
+"          the full list of commands can be found at
+"          http://vimawesome.com/plugin/eunuch-vim 
+"
+"       WARNING 
+"          :Sudoedit/:Sudowrite doesn't seem to work
+"          
+"                    Investigate ASAP
+"
+
+
+
+
+
+
+Plug 'NLKNguyen/copy-cut-paste.vim'  "a paste plugin THAT ACUTALLY WORKS 
+        
+       " There are two modes 
+       
+     
+        "one is Normal mode (Default)
+                  "QC=copy line of text
+                  "QX=cut line of text
+                  "QV= paste from clipboard 
+
+
+
+        "the other is Visual mode (v)
+                  "QC=copy selected text
+                  "QX=cut selected text
