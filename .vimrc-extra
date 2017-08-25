@@ -42,3 +42,18 @@ Plug 'NLKNguyen/copy-cut-paste.vim'  "a paste plugin THAT ACUTALLY WORKS
         "the other is Visual mode (v)
                   "QC=copy selected text
                   "QX=cut selected text
+
+
+
+
+
+"my original minimal lightline config
+
+
+ let g:lightline = {
+    \  'colorscheme': 'powerline',
+    \  'component': {
+    \   'readonly':   '%{&readonly?"":""}',
+    \ }
+    \ }
+
