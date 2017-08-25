@@ -133,7 +133,7 @@ nnoremap k gk
 " the rest of the key bindings
 
 nnoremap qq :q!
-
+nnoremap <F3> n
 map t4 :NERDTreeToggle<CR>
 "changing 'force quit' to 'qq'
 
