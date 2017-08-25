@@ -165,45 +165,12 @@ Plug 'itchyny/lightline.vim' "a very nice powerbar
 
 Plug 'geoffharcourt/vim-matchit' "enhanced '%' options
 
-
-"Plug 'tpope/vim-eunuch' "adding some basic shell commands to vim
-"I.e ':Sudoedit' edits files as root 
-"    ':Remove' removes BOTH local buffer and physical file 
-"        as well as basic UNIX commands like 
-"                  ':Rename' ':Chmod' and 'Mkdir'
-"        
-"          the full list of commands can be found at
-"          http://vimawesome.com/plugin/eunuch-vim 
-"
-"       WARNING 
-"          :Sudoedit/:Sudowrite doesn't seem to work
-"          
-"                    Investigate ASAP
-"
-
-
 Plug 'scrooloose/nerdtree' " a vim filemanager
 
-
-Plug 'NLKNguyen/copy-cut-paste.vim'  "a paste plugin THAT ACUTALLY WORKS 
         
-       " There are two modes 
-       
-     
-        "one is Normal mode (Default)
-                  "QC=copy line of text
-                  "QX=cut line of text
-                  "QV= paste from clipboard 
 
 
-
-        "the other is Visual mode (v)
-                  "QC=copy selected text
-                  "QX=cut selected text
-                   
-
-
-                 "Dependency plugins 
+                "Dependency plugins 
          "basically plugins needed for other plugins that i don't really need by themselves (fucking tounge twister) 
              
                               
