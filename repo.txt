@@ -1,0 +1,34 @@
+subpixel = custom freetype font
+
+
+#  | Alias                               | Name                                        | Enabled | GPG Check | Refresh | Priority
+---+-------------------------------------+---------------------------------------------+---------+-----------+---------+---------
+23 | packman                             | packman                                     | Yes     | (r ) Yes  | Yes     |   34    
+ 2 | bfq                                 | bfq                                         | Yes     | (r ) Yes  | Yes     |   50    
+10 | http-download.opensuse.org-40b7590b | subpixel                                    | Yes     | (r ) Yes  | Yes     |   67    
+22 | openSUSE_Tumbleweed                 | fork-subpixel                               | Yes     | (r ) Yes  | Yes     |   67    
+20 | mozilla                             | mozilla                                     | Yes     | (r ) Yes  | Yes     |   76    
+19 | http-download.videolan.org-bfdc1993 | vlc                                         | Yes     | (r ) Yes  | Yes     |   81    
+ 1 | X11-current                         | X11-current                                 | Yes     | (r ) Yes  | Yes     |   86    
+ 9 | http-download.opensuse.org-2a91e7e7 | multimedia:apps                             | Yes     | (r ) Yes  | Yes     |   86    
+14 | http-download.opensuse.org-a09c917b | multimedia:libs                             | Yes     | (r ) Yes  | Yes     |   86    
+ 4 | games                               | games                                       | Yes     | (r ) Yes  | Yes     |   90    
+26 | repo-oss                            | openSUSE-Tumbleweed-Oss                     | Yes     | (r ) Yes  | Yes     |   90    
+13 | http-download.opensuse.org-811bac42 | X11:Cinnamon:Current                        | No      | ----      | ----    |   94    
+ 3 | emulator                            | emulator                                    | Yes     | (r ) Yes  | Yes     |   96    
+ 5 | home_KAMiKAZOW                      | KAMiKAZOW's Home Project (openSUSE_Factory) | Yes     | (r ) Yes  | No      |   99    
+ 6 | home_snwh_paper                     | Paper Project (openSUSE_Tumbleweed)         | Yes     | (r ) Yes  | No      |   99    
+ 7 | http-download.opensuse.org-174e4181 | home:Pival81                                | Yes     | (r ) Yes  | Yes     |   99    
+ 8 | http-download.opensuse.org-2a592ade | papirus                                     | Yes     | (r ) Yes  | Yes     |   99    
+11 | http-download.opensuse.org-4c53eecc | games:openra                                | Yes     | (r ) Yes  | Yes     |   99    
+15 | http-download.opensuse.org-ac3c2421 | horstthemes                                 | Yes     | (r ) Yes  | Yes     |   99    
+16 | http-download.opensuse.org-b1160da2 | X11:Solus                                   | Yes     | (r ) Yes  | Yes     |   99    
+17 | http-download.opensuse.org-da808a52 | home:gasinvein:anbox                        | Yes     | (r ) Yes  | Yes     |   99    
+18 | http-download.opensuse.org-dca82699 | home:SocMinarch:discord                     | Yes     | (r ) Yes  | Yes     |   99    
+21 | openSUSE-20170605-0                 | openSUSE-20170605-0                         | No      | ----      | ----    |   99    
+24 | repo-debug                          | openSUSE-Tumbleweed-Debug                   | No      | ----      | ----    |   99    
+25 | repo-non-oss                        | openSUSE-Tumbleweed-Non-Oss                 | Yes     | (r ) Yes  | Yes     |   99    
+27 | repo-source                         | openSUSE-Tumbleweed-Source                  | No      | ----      | ----    |   99    
+28 | repo-update                         | openSUSE-Tumbleweed-Update                  | Yes     | (r ) Yes  | Yes     |   99    
+29 | snappy                              | snappy                                      | Yes     | (r ) Yes  | No      |   99    
+12 | http-download.opensuse.org-4cc31086 | network                                     | Yes     | (r ) Yes  | Yes     |  102    
