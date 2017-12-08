@@ -31,13 +31,13 @@ source $VIMRUNTIME/defaults.vim
 if has("vms")  
   set nobackup		"" do not keep a backup file, use versions instead
 else
-  set backup		"" keep a backup file (restore to previous version)
+  set backup		""keep a backup file (restore to previous version)
   if has('persistent_undo')
     set undofile	"" keep an undo file (undo changes after closing)
   endif
 endif
 
-
+set t_Co=256 "set terminal color to 256
 
 if &t_Co > 2 || has("gui_running")
   "" Switch on highlighting the last used search pattern.
@@ -45,6 +45,7 @@ if &t_Co > 2 || has("gui_running")
   set hlsearch
 endif
 
+" set spell  spelllang=en_us
 
 
 "" Only do this part when compiled with support for autocommands.
@@ -131,9 +132,10 @@ nnoremap k gk
 
 
 " the rest of the key bindings
-
+nnoremap <C-d> z=
 nnoremap qq :q!
-
+nnoremap <F3> n
+map t4 :NERDTreeToggle<CR>
 "changing 'force quit' to 'qq'
 
 
@@ -164,27 +166,12 @@ Plug 'itchyny/lightline.vim' "a very nice powerbar
 
 Plug 'geoffharcourt/vim-matchit' "enhanced '%' options
 
+Plug 'scrooloose/nerdtree' " a vim filemanager
 
-Plug 'tpope/vim-eunuch' "adding some basic shell commands to vim
-"I.e ':Sudoedit' edits files as root 
-"    ':Remove' removes BOTH local buffer and physical file 
-"        as well as basic UNIX commands like 
-"                  ':Rename' ':Chmod' and 'Mkdir'
-"        
-"          the full list of commands can be found at
-"          http://vimawesome.com/plugin/eunuch-vim 
-
-"       WARNING 
-"          :Sudoedit/:Sudowrite doesn't seem to work
-"          
-"                    Investigate ASAP
-"
+Plug 'junegunn/goyo.vim' " A extra mode for vim ':Goyo       
 
 
-        
-
-
-                 "Dependency plugins 
+                "Dependency plugins 
          "basically plugins needed for other plugins that i don't really need by themselves (fucking tounge twister) 
              
                               
@@ -196,16 +183,16 @@ Plug 'tpope/vim-eunuch' "adding some basic shell commands to vim
 
 
  let g:lightline = {
-    \  'colorscheme': 'wombat',
+    \  'colorscheme': 'powerline',
     \  'component': {
-    \   'readonly':   '%{&readonly?"":""}',
     \ }
     \ }
 
 
 
 
-
+"TO-DO 
+      "configure lightline
 
 
 
@@ -234,6 +221,20 @@ else
         let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 endif 
 
+"Gvim default modifications
+
+
+"from the http://vim.wikia.com/wiki/Change_font article
+
+if has('gui_running')
+
+        set guifont=Terminus\ 12
+      colorscheme vividchalk
+endif
+
+
+
+
 " The matchit plugin makes the % command work better, but it is not backwards
 "compatible.
 
@@ -254,6 +255,6 @@ endif
 
 
 "mksession/buffers
-""
+
 
 
