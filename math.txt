@@ -1,0 +1,219 @@
+Pre Algebra, introducing Algebra.
+
+Operations in the correct order.
+
+When you are faced with a mathematical expression that has several operations or parentheses, the solution may be affected by the order in which you tackle the operations. For example, take the expression
+  4 * 7 - 2
+
+ If we do the multiplication first, we arrive at the following answer:
+28 - 2 = 26
+ 
+If instead we begin by subtracting we get:
+
+4 * 5 = 20
+
+In order to avoid confusion and to ensure that everyone always arrives at the same result, mathematicians established a standard order of operations for calculations that involve more than one arithmetic operation. Arithmetic operations should always be carried out in the following order.
+
+1. Simplify the expressions inside parentheses (), brackets [], braces {} and fractions bars.
+
+2. Evaluate all powers
+
+3. Do all multiplications and divisions from left to right
+
+4. Do all addions and subtractions from left to right
+
+EXAMPLE:
+
+Suppose you want to figure out how many hours a person works in twodays assuming that they work 4 hours before lunch and 3 hours after lunch each day. First, work out how many hours the person works each day:
+
+4+3=7
+
+and then multiply that by the number of days the person worked.
+
+7 * 2 = 14
+
+If we were to write this example as one expression, we would need to use parentheses to make sure that people calculate the additon first:
+
+(4+3)*2= 14
+
+Video lesson 
+
+Simplfy the following expression:
+
+2 * [(8-3) + 6 * (2)] - 3 
+
+
+COPY:
+
+
+Proper Fractions: 	The numerator is less than the denominator
+Examples: 1/3, 3/4, 2/7
+  	 
+
+Improper Fractions: 	The numerator is greater than (or equal to) the denominator Examples: 4/3, 11/4, 7/7
+  	 
+Mixed Fractions: 	A whole number and proper fraction together
+Examples: 1 1/3, 2 1/4, 16 2/5
+
+NOTES AND VOCAB:
+
+
+EXPRESSIONS/EQUATIONS:
+
+the most clear diffrence between a mathmatical expression vs a mathmatical equation is that all  equations include a = sign while no expressions include one.
+
+
+
+equation simplified:
+an equation is a mathmatical statement that two things are equal 
+in it's most basic form it is two expressions seperated by a = .
+
+expression simplified:
+
+Numbers, Symbols and Operators (such as + or x) 
+
+grouped togeather to show the value of something
+
+2+3 is an expression 
+
+the basic formula is (Number, Math operator, Number)
+
+Advanced types of equations/expressions
+
+
+Variables: 
+
+PEMDAS:
+PARENTHESIS
+EXPONENTS
+MULTIPLICATION
+DIVISION
+ADDITION
+SUBTRACTION.
+
+
+NEEDED VOCAB:
+
+[EXPONENTS: The exponent of a number says how many times to use the number in a multiplication  (^2) ALSO CALLED either "powers" or "indices"
+
+in 8^2 the "2" says to use 8 twice in a multiplication
+
+so 8^2 = 8x8 = 64
+
+it can also be referred as "8 to the power of 2" or "8 to the second power" or "8 squared"
+
+
+NEGATIVE EXPONENTS:
+
+A negative exponent means how many times to divide one by the number.
+
+example: 8^-1 = 1/8 = .125
+
+it can be overlapped using two formulas
+
+example 5^-3= 1/5/5/5=.0008
+
+or
+
+example:1/(5*5*5) = 1/5^3 =1/125 = 0.008
+
+RECIPROCAL EXPONENTS AND FRACTIONS: 
+
+reciprocal is akin to flipping the number on it's head
+
+like the reciprocal of 5 is 1/5
+
+or the reciprocal of 1000 or 1000/1 is 1/1000
+
+
+*** to do *** 
+
+
+FRACTIONS:
+
+parts of a whole.
+The top number (the Numerator) is the number of parts we have.
+The bottom number (the Denominator) is the number of parts the whole is divided into.
+
+
+Fraction Reciprocal:
+
+for fracions a reciprocal means flipping the numerator and the denominator
+
+
+like 3/4 becomes 4/3 or 777/1222 turns into 1222/777
+
+
+Numerator / Denominator:
+
+
+A numerator is the top number of the fraction and a denominator is the bottom number.
+
+
+as stated earlier a reciprocal of a fraction is switching the numerator or a denominator
+
+
+
+
+Further Numerator / Denominator shit:
+
+
+the real tricky reciprocals go like this:
+
+4/12 original equals 1/3
+but calling it's reciprocal turns into 12/4 or frankly just 3
+
+
+the rule of thumb states if you multiply any fraction by it's set reciprocal the final answer will be just 1.
+
+
+
+
+MIXED FRACTIONS:
+
+A whole number and a proper fraction combined (verses a improper fractioon)
+
+examples
+
+2 3/8
+
+7 1/4
+
+1 14/15
+
+21 4/5
+
+the mixed fraction to repeat is a whole number with a fraction marked with a proper numerator and a proper denominator
+
+
+INPROPER FRACTIONS:
+
+an inproper fraction has a numerator larger then the denominator.
+
+like 7/4 or 3/2 or 7/3 or 16/15 or 15/15 or 100/5
+
+
+
+Further shit #2:
+
+
+Inproper fractions and mixed fractions are two sides to the same coin
+
+to convert between the two divide the numerator by the denominataor
+
+and then write down the (rounded) whole number answer and put your remainder over the original denominator.
+
+
+
+Conversting mixed fractions to improper fractions
+
+
+-Multiply the whole number part by the denominator
+
+add it to the numerator
+
+then write the result on top of the denominaor
+
+Improper factions have the advantage of beeing better understood in serious equations but most people can only reconize mixed fractions in day to day life
+
+
