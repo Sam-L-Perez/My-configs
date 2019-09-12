@@ -79,9 +79,11 @@ grouped togeather to show the value of something
 the basic formula is (Number, Math operator, Number)
 
 Advanced types of equations/expressions
+*To Do*
+
+Variables: A symbol or statement representing a unkown number (y,x)
 
 
-Variables: 
 
 PEMDAS:
 PARENTHESIS
@@ -142,6 +144,8 @@ for fracions a reciprocal means flipping the numerator and the denominator
 
 
 like 3/4 becomes 4/3 or 777/1222 turns into 1222/777
+
+
 
 
 Numerator / Denominator:
@@ -216,4 +220,15 @@ then write the result on top of the denominaor
 
 Improper factions have the advantage of beeing better understood in serious equations but most people can only reconize mixed fractions in day to day life
 
+
+Todo as of 9/12/19
+
+Learn about nth power and root
+
+Learn.about the idea of reciprocal fractions
+
+
+Advanced expressions
+
+Chapter 1.2 
 
