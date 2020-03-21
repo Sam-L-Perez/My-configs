@@ -1,0 +1,20 @@
+"yo Viajo"
+i travel
+
+"yo habla"
+i speak
+puedo "may i"
+
+ "¿puedo Caminar?"
+can i walk?
+ "¿puedo Comprar?"
+can i buy this?
+
+"¿puedo Tomar?"
+can i drink?
+"¿Puedo Descansar?"
+may i rest?
+
+"¿Puedo Ayudar?"
+
+can i help?
